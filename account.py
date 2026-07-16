@@ -150,3 +150,11 @@ if __name__ == "__main__":
     print("\n=== Final Statements ===")
     for account in accounts:
         print(account)
+
+        a = SavingsAccount("Estub", 1000)
+b = CurrentAccount("Aman", 500)
+c = BusinessAccount("Yango corp", 5000)
+a.deposit(100)
+print(a.balance)  
+print(b.balance)   
+print(c.balance)   
